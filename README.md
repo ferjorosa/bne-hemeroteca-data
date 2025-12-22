@@ -14,11 +14,11 @@ Enriched metadata and cover images for all publications in the Hemeroteca. Inclu
 
 📦 [ferjorosa/bne-hemeroteca-publications](https://huggingface.co/datasets/ferjorosa/bne-hemeroteca-publications)
 
-> **Note**: The BNE provides an [open data CSV](https://datosabiertos.bne.es/catalogo/dataset/hemeroteca-digital-texto-completo) with basic publication information, but it lacks key details such as descriptions, number of issues, and direct links to content. This project enriches that data by scraping the full metadata from each publication's detail page.
+> **Why scrape?**: The BNE provides an [open data CSV](https://datosabiertos.bne.es/catalogo/dataset/hemeroteca-digital-texto-completo) with basic publication information, but it lacks info such as descriptions, number of issues, and direct links to content. By scraping we get full metadata from each publication's detail page.
 
 ## Updates
 
-**December 22, 2025** — Repository initialized. Released the publications dataset with ~3,600 publications scraped from the Hemeroteca Digital.
+**December 22, 2025** — Repository initialized. Released the publications dataset with ~3,000 publications scraped from the Hemeroteca Digital.
 
 ## Setup
 
