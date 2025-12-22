@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# UV
+uv.lock
+
+# Data directory
+data/
+
+# Virtual environments
+.venv/
+
+# Environment variables
+.env
