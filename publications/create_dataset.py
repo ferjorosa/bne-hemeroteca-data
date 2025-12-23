@@ -17,7 +17,7 @@ def get_data_paths() -> tuple[Path, Path, Path]:
     """Get the paths for CSV, images directory, and output file."""
     script_dir = Path(__file__).parent
     # Go up one level to project root, then down to data
-    data_dir = script_dir.parent / "data" / "bne_digital_hemeroteca" / "publications"
+    data_dir = script_dir.parent / "data" / "publications"
     csv_path = data_dir / "list.csv"
     images_dir = data_dir / "images"
     output_path = data_dir / "publications.parquet"

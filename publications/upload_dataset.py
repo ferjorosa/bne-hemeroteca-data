@@ -34,7 +34,7 @@ def main():
     
     # Define paths
     script_dir = Path(__file__).parent
-    data_dir = script_dir.parent / "data" / "bne_digital_hemeroteca" / "publications"
+    data_dir = script_dir.parent / "data" / "publications"
     parquet_path = data_dir / "publications.parquet"
     
     if not parquet_path.exists():

@@ -31,8 +31,8 @@ available publications. It performs the following steps:
     - Assigns a unique UUID to the publication and uses it for the image filename.
 
 5.  **Output**:
-    - Appends the collected data (including the UUID and image status) to `data/bne_digital_hemeroteca/publications/list.csv`.
-    - Saves images to `data/bne_digital_hemeroteca/publications/images/`.
+    - Appends the collected data (including the UUID and image status) to `data/publications/list.csv`.
+    - Saves images to `data/publications/images/`.
 """
 import requests
 import csv
@@ -55,7 +55,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 # Updated output path
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "bne_digital_hemeroteca", "publications")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "publications")
 IMAGES_DIR = os.path.join(OUTPUT_DIR, "images")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "list.csv")
 
